@@ -1,8 +1,4 @@
 {
-	"bold_folder_labels": true,
-	"ensure_newline_at_eof_on_save": true,
-	"font_size": 12.0,
-	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -12,8 +8,12 @@
 		80,
 		120
 	],
+	"bold_folder_labels": true,
+	"highlight_modified_tabs": true,
+	"scroll_past_end": true,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"ensure_newline_at_eof_on_save": true
 }
