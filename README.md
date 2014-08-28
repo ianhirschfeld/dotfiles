@@ -54,6 +54,22 @@ Use `\q` to quite psql.
 
 #### Install [Heroku Toolbelt](https://toolbelt.heroku.com/)
 
+#### Install [QT](https://github.com/thoughtbot/capybara-webkit/wiki/Installing-Qt-and-compiling-capybara-webkit)
+
+```bash
+brew install qt
+```
+
+To run the javascript specs from the command line, you need to install QT which is needed by [capybara-webkit](https://github.com/thoughtbot/capybara-webkit) for the request specs.
+
+#### Install libxml2 and libxslt
+
+```bash
+brew install libxml2 libxslt
+```
+
+These are needed to install nokogiri gem.
+
 #### Setup Sublime Text Command
 
 ```bash
