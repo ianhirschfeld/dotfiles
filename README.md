@@ -3,7 +3,7 @@ dotfiles
 
 Various dotfiles and configuration files.
 
-Setting up a New Environment
+Setting Up a New Environment
 ----------------------------
 
 #### Install [Homebrew] (http://mxcl.github.com/homebrew/)
@@ -14,7 +14,7 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 #### Install [RVM](https://rvm.io/rvm/install)
 
 ```bash
-curl -L https://get.rvm.io | bash -s stable --ruby
+curl -sSL https://get.rvm.io | bash -s stable --ruby
 ```
 
 This will install rvm and the latest stable ruby version.
@@ -42,3 +42,9 @@ Use `\q` to quite psql.
 ```bash
 ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 ```
+
+#### Show Hidden Files on Mac
+```bash
+defaults write com.apple.finder AppleShowAllFiles YES
+```
+Then relaunch Finder.
