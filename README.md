@@ -52,6 +52,7 @@ Use `\q` to quite psql.
 
 #### Install [pgAdmin](http://www.pgadmin.org/download/macosx.php)
 
+#### Install [Heroku Toolbelt](https://toolbelt.heroku.com/)
 
 #### Setup Sublime Text Command
 
