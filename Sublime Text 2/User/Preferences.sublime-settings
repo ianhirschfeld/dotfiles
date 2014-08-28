@@ -1,21 +1,41 @@
 {
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"rulers":
-	[
-		79,
-		119
-	],
-	"bold_folder_labels": true,
-	"highlight_modified_tabs": true,
-	"scroll_past_end": true,
-	"tab_size": 2,
-	"translate_tabs_to_spaces": true,
-	"trim_automatic_white_space": true,
-	"trim_trailing_white_space_on_save": true,
-	"ensure_newline_at_eof_on_save": true,
-	"word_wrap": false,
-	"scroll_past_end": true
+  "binary_file_patterns":
+  [
+    "*.jpg",
+    "*.jpeg",
+    "*.png",
+    "*.gif",
+    "*.ttf",
+    "*.tga",
+    "*.dds",
+    "*.ico",
+    "*.eot",
+    "*.pdf",
+    "*.swf",
+    "*.jar",
+    "*.zip",
+    "*.scssc",
+    "tmp/*",
+    "log/*",
+    "bundle/*",
+    "public/*"
+  ],
+  "bold_folder_labels": true,
+  "ensure_newline_at_eof_on_save": true,
+  "highlight_modified_tabs": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "rulers":
+  [
+    79,
+    119
+  ],
+  "scroll_past_end": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_automatic_white_space": true,
+  "trim_trailing_white_space_on_save": true,
+	"word_wrap": false
 }
