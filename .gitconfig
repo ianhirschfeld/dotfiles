@@ -14,17 +14,34 @@
   changed = green
   untracked = cyan
 [alias]
+  br = branch
+  ####################
   ci = commit
   cm = commit -m
+  cam = commit -am
+  ####################
   co = checkout
   cob = checkout -b
+  ####################
   df = diff
+  ####################
   mg = merge --no-ff
-  mgm = merge origin/master
-  plr = pull --rebase origin
-  pu = push origin
-  pum = push origin master
-  st = status
+  mgm = merge --no-ff origin/master
+  ####################
+  pl = pull
+  plr = pull --rebase
+  plro = pull --rebase origin
+  ####################
+  pu = push
+  puo = push origin
+  puom = push origin master
+  pup = push production
+  pupm = push production master
+  ####################
   sa = stash
+  sac = stash clear
   sal = stash list
   sap = stash pop
+  sas = stash show
+  ####################
+  st = status
