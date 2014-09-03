@@ -14,6 +14,8 @@
   changed = green
   untracked = cyan
 [alias]
+  aa = add -A
+  ####################
   br = branch
   ####################
   ci = commit
