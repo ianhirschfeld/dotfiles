@@ -17,6 +17,7 @@
   aa = add -A
   ####################
   br = branch
+  brd = branch -d
   ####################
   ci = commit
   cm = commit -m
