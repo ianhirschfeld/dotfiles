@@ -38,6 +38,8 @@
   pu = push
   puo = push origin
   puom = push origin master
+  puh = push heroku
+  puhm = push heroku master
   pup = push production
   pupm = push production master
   ####################
