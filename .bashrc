@@ -1,6 +1,6 @@
 export PATH="$PATH:$HOME/.rvm/bin:/bin:/usr/local/bin" # Add RVM to PATH for scripting
 
-export GIT_EDITOR="subl"
+export GIT_EDITOR="subl -n -w"
 
 # If not running interactively, don't do anything.
 [ -z "$PS1" ] && return
