@@ -29,8 +29,9 @@
   ],
   "rulers":
   [
-    79,
-    119
+    50,
+    80,
+    120
   ],
   "scroll_past_end": true,
   "tab_size": 2,
