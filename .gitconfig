@@ -15,6 +15,7 @@
   untracked = cyan
 [alias]
   aa = add -A
+  ap = add -p
   ####################
   br = branch
   brd = branch -d
