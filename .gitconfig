@@ -30,7 +30,7 @@
   df = diff
   ####################
   mg = merge --no-ff
-  mgm = merge --no-ff origin/master
+  mgm = merge master
   ####################
   pl = pull
   plr = pull --rebase
