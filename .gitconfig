@@ -14,11 +14,13 @@
   changed = green
   untracked = cyan
 [alias]
+  a = add
   aa = add -A
   ap = add -p
   ####################
   br = branch
   brd = branch -d
+  brdf = branch -D
   ####################
   ci = commit
   cm = commit -m
@@ -44,8 +46,15 @@
   pup = push production
   pupm = push production master
   ####################
+  rb = rebase
+  rbm = rebase master
+  rbc = rebase --continue
+  rbs = rebase --skip
+  rba = rebase --abort
+  ####################
   sa = stash
   sac = stash clear
+  sad = stash drop
   sal = stash list
   sap = stash pop
   sas = stash show
