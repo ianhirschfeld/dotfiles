@@ -40,6 +40,7 @@
   ####################
   pu = push
   puo = push origin
+  pufo = push -f origin
   puom = push origin master
   puh = push heroku
   puhm = push heroku master
@@ -47,6 +48,7 @@
   pupm = push production master
   ####################
   rb = rebase
+  rbi = rebase -i
   rbm = rebase master
   rbc = rebase --continue
   rbs = rebase --skip
