@@ -14,4 +14,4 @@ alias show='ps auxwww | grep '
 # Bundle
 alias be='bundle exec'
 alias ber='bundle exec rake'
-alias bers='bundle exec rake rspec'
+alias bers='bundle exec rspec'
