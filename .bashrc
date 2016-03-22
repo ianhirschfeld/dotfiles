@@ -29,5 +29,8 @@ parse_git_branch() {
 }
 export PS1="\u@\h \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
 
+# Adding node
+export PATH="$PATH:node_modules/.bin"
+
 ### Added by the Heroku Toolbelt
 export PATH="$PATH:/usr/local/heroku/bin"

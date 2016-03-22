@@ -18,7 +18,8 @@
     "tmp/*",
     "log/*",
     "bundle/*",
-    "public/*"
+    "public/*",
+    "node_modules/*"
   ],
   "bold_folder_labels": true,
   "ensure_newline_at_eof_on_save": true,
@@ -29,7 +30,6 @@
   ],
   "rulers":
   [
-    50,
     80,
     120
   ],

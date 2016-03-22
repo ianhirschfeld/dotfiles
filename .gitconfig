@@ -62,3 +62,9 @@
   sas = stash show
   ####################
   st = status
+[filter "hawser"]
+  clean = git hawser clean %f
+  smudge = git hawser smudge %f
+  required = true
+[core]
+  excludesfile = /Users/hirsch/.gitignore_global
