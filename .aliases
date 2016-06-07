@@ -22,7 +22,8 @@ alias g='git'
 # Heroku
 alias hk='heroku'
 alias hkl='heroku logs'
-alias hkr='heroku run rails c'
+alias hkr='heroku run'
+alias hkrr='heroku run rails c'
 
 # NPM
 alias nombom='npm cache clear && bower cache clean && rm -rf node_modules bower_components && npm install && bower install'
