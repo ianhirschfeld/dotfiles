@@ -23,7 +23,11 @@ alias g='git'
 alias hk='heroku'
 alias hkl='heroku logs'
 alias hkr='heroku run'
-alias hkrr='heroku run rails c'
+alias hkrr='heroku run rake'
+alias hkrc='heroku run rails c'
 
 # NPM
 alias nombom='npm cache clear && bower cache clean && rm -rf node_modules bower_components && npm install && bower install'
+
+# Misc
+alias fixpg='rm /usr/local/var/postgres/postmaster.pid'
