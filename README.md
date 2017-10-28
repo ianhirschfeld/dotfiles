@@ -6,7 +6,11 @@ Various dotfiles and configuration files.
 Setting Up a New Environment
 ----------------------------
 
-#### Install Xcode and [Command Line Tools](https://developer.apple.com/downloads/index.action?name=for%20Xcode%20-)
+#### Install Xcode and Command Line Tools
+
+```bash
+xcode-select --install
+```
 
 #### Install [Homebrew](http://mxcl.github.com/homebrew/)
 
@@ -24,13 +28,13 @@ This will install rvm and the latest stable ruby version.
 
 #### Install Rails
 ```bash
-sudo gem install rails
+gem install rails
 ```
 
 #### Install [Postgres](http://www.moncefbelyamani.com/how-to-install-postgresql-on-a-mac-with-homebrew-and-lunchy/)
 
 ```bash
-brew install postgres
+brew install postgresql
 ```
 
 To have launchd start postgresql at login:
@@ -54,6 +58,10 @@ Use `\q` to quite psql.
 
 #### Install [Heroku Toolbelt](https://toolbelt.heroku.com/)
 
+```bash
+brew install heroku/brew/heroku
+```
+
 #### Install [QT](https://github.com/thoughtbot/capybara-webkit/wiki/Installing-Qt-and-compiling-capybara-webkit)
 
 ```bash
@@ -73,7 +81,7 @@ These are needed to install nokogiri gem.
 #### Setup Sublime Text Command
 
 ```bash
-ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 ```
 
 #### Show Hidden Files on Mac
